@@ -2,9 +2,54 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title></title>
+		<title>table demo test</title>
 	</head>
 	<body>
-		132132146546546
+		<table class="scoreShow">
+			<tr>
+				<td class="leftShow">考试科目</td>
+				<td class="rightShow">成绩</td>
+			</tr>
+			<tr>
+				<td>语文</td>
+				<td>107</td>
+			</tr>
+			<tr>
+				<td>数学</td>
+				<td>87</td>
+			</tr>
+			<tr>
+				<td>英语/听说</td>
+				<td>98/56</td>
+			</tr>
+			<tr>
+				<td>文综</td>
+				<td>187</td>
+			</tr>
+			<tr>
+				<td>理综</td>
+				<td>78</td>
+			</tr>
+		</table>
 	</body>
+	<style>
+td{	
+			border:1px solid black;
+		
+			text-align: center;
+			height: 35px;
+			line-height: 35px;
+		
+		}
+		.scoreShow{
+			border-collapse: 0;
+			border-spacing: 0;
+		}
+		.leftShow{
+			width: 120px;
+		}
+		.rightShow{
+			width:100px;
+		}
+	</style>
 </html>
